@@ -14,13 +14,100 @@
             src="https://isopanelscu.files.wordpress.com/2024/03/hero.png"
             class="layout-image"
           />
+
+          <!-- ===============================HEADER INSIDE IMAGE=========================================================== -->
+          <div class="header" id="navbar-header">
+            <div class="header-content">
+              <img
+                src="https://isopanelscu.files.wordpress.com/2024/03/logo.png"
+                alt="header logo"
+                class="header-logo"
+              />
+              <div class="header-links">
+                <div class="header-links-content">
+                  <a>ABOUT US</a>
+                  <a>CONTACT</a>
+                  <a>NEWS</a>
+                </div>
+              </div>
+
+              <div class="header-icon">
+                <button id="sidebar">arrow</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===============================HEADER OUTSIDE IMAGE=========================================================== -->
+          <div>
+            <div class="header-overlay" id="site-header">
+              <div class="header-overlay-content">
+                <img
+                  src="https://isopanelscu.files.wordpress.com/2024/03/logo.png"
+                  alt="header logo"
+                  class="header-overlay-logo"
+                />
+                <div class="header-links">
+                  <div class="header-links-content">
+                    <a>ABOUT US</a>
+                    <a>CONTACT</a>
+                    <a>NEWS</a>
+                  </div>
+                </div>
+
+                <div class="header-icon">
+                  <button id="navbar">navbar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ==========================================================================================TOGGLE BAR======================================= -->
+
+          <div id="toggle-bar">
+            <div class="toggle-bar-container">
+              <div class="toggle-bar-content">
+                <a>Home</a>
+                <a>ABOUT US</a>
+                <a>CONTACT</a>
+                <a>NEWS</a>
+              </div>
+              <button class="toggle-bar-back" id="x">back</button>
+            </div>
+          </div>
+
+          <script>
+            let togglebar = document.getElementById("toggle-bar");
+            let toggler = document.getElementById("sidebar");
+            let openNavigation = document.getElementById("navbar");
+            let backtoggler = document.getElementById("x");
+
+            toggler.addEventListener("click", function () {
+              togglebar.style.display = "block";
+            });
+
+            openNavigation.addEventListener("click", function () {
+              togglebar.style.display = "block";
+            });
+
+            backtoggler.addEventListener("click", function () {
+              togglebar.style.display = "none";
+            });
+          </script>
+
           <div class="layout-image-content">
-            <h1>DEVELOPMENT EPZ LTD</h1>
-            <h2>GLOBAL GATEWAY: EMPOWERING</h2>
-            <h2>BUSINESS THROUGH OUR EXPORT</h2>
-            <h2>PROCESSING ZONE</h2>
+            <p>DEVELOPMENT EPZ LTD</p>
+            <a>GLOBAL GATEWAY: EMPOWERING</a>
+            <a>BUSINESS THROUGH OUR EXPORT</a>
+            <a>PROCESSING ZONE</a>
             <div class="layout-button">
-              <p>GET IN TOUCH</p>
+              <img
+                src="https://isopanelscu.files.wordpress.com/2024/03/get-in-touch-353073579-e1710926304354.png"
+                alt="button"
+                class="layout-button-image"
+              />
+              <div class="layout-button-content">
+                <h1>GET IN TOUCH</h1>
+              </div>
             </div>
           </div>
         </div>
@@ -63,36 +150,52 @@
         <div class="chose-container">
           <div class="chose-content">
             <img
-              src="https://isopanelscu.files.wordpress.com/2024/03/tax.png"
+              src="https://isopanelscu.files.wordpress.com/2024/03/tax-2390866550-e1710846850866.png"
               alt="icon"
               class="chose-image"
             />
             <h1>Tax Incentives</h1>
             <p>Investors in a free trade zone enjoy reduced corporate</p>
-            <img src="" alt="icon" class="chose-icon" />
-          </div>
-
-          <div class="chose-content">
-            <img src="" alt="icon" class="chose-image" />
-            <h1>STREAMLINED REGULATIONS</h1>
-            <p>The Kenyan government has implemented measures</p>
-            <img src="" alt="icon" class="chose-icon" />
+            <img
+              src="https://isopanelscu.files.wordpress.com/2024/03/download.png"
+              alt="icon"
+              class="chose-icon"
+            />
           </div>
 
           <div class="chose-content">
             <img
-              src="https://isopanelscu.files.wordpress.com/2024/03/employment.png"
+              src="https://isopanelscu.files.wordpress.com/2024/03/technology_-558890391-e1710847426113.png"
+              alt="icon"
+              class="chose-image"
+            />
+            <h1>STREAMLINED REGULATIONS</h1>
+            <p>The Kenyan government has implemented measures</p>
+            <img
+              src="https://isopanelscu.files.wordpress.com/2024/03/download.png"
+              alt="icon"
+              class="chose-icon"
+            />
+          </div>
+
+          <div class="chose-content">
+            <img
+              src="https://isopanelscu.files.wordpress.com/2024/03/employment-3205012632-e1710847301342.png"
               alt="icon"
               class="chose-image"
             />
             <h1>EMPLOYMENT OPPORTUNITIES</h1>
             <p>By establishing factories within our EPZ zone, we generate...</p>
-            <img src="" alt="icon" class="chose-icon" />
+            <img
+              src="https://isopanelscu.files.wordpress.com/2024/03/download.png"
+              alt="icon"
+              class="chose-icon"
+            />
           </div>
 
           <div class="chose-content">
             <img
-              src="https://isopanelscu.files.wordpress.com/2024/03/technology_.png"
+              src="https://isopanelscu.files.wordpress.com/2024/03/technology_-558890391-e1710847426113.png"
               alt="icon"
               class="chose-image"
             />
@@ -101,32 +204,215 @@
               companies that operate within the EPZ often benefit from
               sharing...
             </p>
-            <img src="" alt="icon" class="chose-icon" />
+            <img
+              src="https://isopanelscu.files.wordpress.com/2024/03/download.png"
+              alt="icon"
+              class="chose-icon"
+            />
           </div>
 
           <div class="chose-content">
             <img
-              src="https://isopanelscu.files.wordpress.com/2024/03/diversification.png"
+              src="https://isopanelscu.files.wordpress.com/2024/03/diversification-363230793-e1710847326659.png"
               alt="icon"
               class="chose-image"
             />
             <h1>DIVERSIFICATION OF ECONOMY</h1>
             <p>Export processing zones in Kenya play an important role...</p>
-            <img src="" alt="icon" class="chose-icon" />
+            <img
+              src="https://isopanelscu.files.wordpress.com/2024/03/download.png"
+              alt="icon"
+              class="chose-icon"
+            />
           </div>
 
           <div class="chose-content">
             <img
-              src="https://isopanelscu.files.wordpress.com/2024/03/operational-cost_.png"
+              src="https://isopanelscu.files.wordpress.com/2024/03/operational-cost_-36299475-e1710847254131.png"
               alt="icon"
               class="chose-image"
             />
             <h1>OPERATIONAL COSTS</h1>
             <p>Naivashas location has lower operational costs than major...</p>
-            <img src="" alt="icon" class="chose-icon" />
+            <img
+              src="https://isopanelscu.files.wordpress.com/2024/03/download.png"
+              alt="icon"
+              class="chose-icon"
+            />
           </div>
         </div>
       </div>
+      <div class="companies-container">
+        <div class="companies-text">
+          <h1>COMPANIES ENROLLED</h1>
+          <h1>IN OUR EPZ</h1>
+        </div>
+        <div class="companies-image-container">
+          <img
+            src="https://isopanelscu.files.wordpress.com/2024/03/company-logos.png"
+            alt="companies"
+            class="companies-images"
+          />
+        </div>
+      </div>
+
+      <div class="partner-container">
+        <div class="partner-content">
+          <h1>PARTNERING TO BUILD YOUR BUSINESS</h1>
+
+          <p>
+            Our high-end infrastructure is well-equipped to accommodate
+            additional businesses, and we welcome the opportunity for more
+            companies to join our dynamic industrial environment.
+          </p>
+        </div>
+      </div>
+
+      <div class="benefit">
+        <div class="benefit-container">
+          <h2>Benefits of establishing your export business in Naivasha</h2>
+          <div class="benefit-grid-contents">
+            <div class="benefit-content">
+              <h1>STRATEGIC LOCATION</h1>
+              <div class="benefit-icon">
+                <img
+                  src="https://isopanelscu.files.wordpress.com/2024/03/plus-icon-3750362910-e1710913800898.png"
+                  alt="plus icon"
+                  class="plus-icon"
+                />
+              </div>
+            </div>
+
+            <div class="benefit-content">
+              <h1>STRATEGIC LOCATION</h1>
+              <div class="benefit-icon">
+                <img
+                  src="https://isopanelscu.files.wordpress.com/2024/03/plus-icon-3750362910-e1710913800898.png"
+                  alt="plus icon"
+                  class="plus-icon"
+                />
+              </div>
+            </div>
+
+            <div class="benefit-content">
+              <h1>STRATEGIC LOCATION</h1>
+              <div class="benefit-icon">
+                <img
+                  src="https://isopanelscu.files.wordpress.com/2024/03/plus-icon-3750362910-e1710913800898.png"
+                  alt="plus icon"
+                  class="plus-icon"
+                />
+              </div>
+            </div>
+
+            <div class="benefit-content">
+              <h1>STRATEGIC LOCATION</h1>
+              <div class="benefit-icon">
+                <img
+                  src="https://isopanelscu.files.wordpress.com/2024/03/plus-icon-3750362910-e1710913800898.png"
+                  alt="plus icon"
+                  class="plus-icon"
+                />
+              </div>
+            </div>
+
+            <div class="benefit-content">
+              <h1>STRATEGIC LOCATION</h1>
+              <div class="benefit-icon">
+                <img
+                  src="https://isopanelscu.files.wordpress.com/2024/03/plus-icon-3750362910-e1710913800898.png"
+                  alt="plus icon"
+                  class="plus-icon"
+                />
+              </div>
+            </div>
+
+            <div class="benefit-content">
+              <h1>STRATEGIC LOCATION</h1>
+              <div class="benefit-icon">
+                <img
+                  src="https://isopanelscu.files.wordpress.com/2024/03/plus-icon-3750362910-e1710913800898.png"
+                  alt="plus icon"
+                  class="plus-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===============================================FOOTER========================================== -->
+
+      <div class="footer">
+        <div class="footer-container">
+          <div class="footer-logo">
+            <div>
+              <img
+                src="https://isopanelscu.files.wordpress.com/2024/03/logo.png"
+                alt="logo"
+                class="footer-logo-image"
+              />
+            </div>
+            <div class="footer-newsletter">
+              <p>SIGN UP OUR NEWSLETTER</p>
+              <div>
+                <input placeholder="Email address" />
+              </div>
+            </div>
+          </div>
+          <div class="footer-links">
+            <a>About</a>
+            <a>Business in Kenya</a>
+            <a>EPZ Program</a>
+            <a>Resources</a>
+            <a>News</a>
+            <a>Contact</a>
+          </div>
+          <div class="footer-contact">
+            <div>
+              <div class="adress">ADDRESS:</div>
+              <p>Address line here lipsium</p>
+              <p>dollar sit amet 12345</p>
+            </div>
+            <div>
+              <p>PHONE</p>
+              <p>+1234567890</p>
+            </div>
+            <div>
+              <p>EMAIL</p>
+              <p>Info@Newvasha-epz.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-rights-socials">
+          <p class="footer-rights">
+            2023 NEWVASHA DEVELOPMENT EPZ. All rights Reserved
+          </p>
+          <div class="footer-socials">
+            <div>facebook</div>
+            <div>Twitter</div>
+            <div>Instagram</div>
+            <div>Linkdn</div>
+          </div>
+        </div>
+      </div>
+      <script>
+        let lastScrollTop = 0;
+        let header = document.getElementById("site-header");
+
+        window.addEventListener("scroll", function () {
+          let currentScroll =
+            window.pageYOffset || document.documentElement.scrollTop;
+
+          if (currentScroll > lastScrollTop && currentScroll > 0) {
+            header.style.top = "-100px";
+          } else {
+            header.style.top = "0";
+          }
+
+          lastScrollTop = currentScroll;
+        });
+      </script>
     </main>
   </body>
 </html>
