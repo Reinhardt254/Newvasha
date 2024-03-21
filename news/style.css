@@ -1,4 +1,35 @@
 body {
    font-family: "Lato", sans-serif;
  }
- 
+
+ .news-home-pic {
+   height: 100%;
+   width: 100%;
+ }
+
+ .news-container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .news-container h1{
+   font-weight: 500;
+   font-size: 24px;
+   text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ @media only screen and (min-width: 780px){
+   .news-container h1{
+      font-weight: 500;
+      font-size: 34px;
+      text-align: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 50%;
+      padding-top: 30px;
+    }
+ }
