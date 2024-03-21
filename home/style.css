@@ -1,3 +1,7 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
 /* ==================HEADER===================================== */
 .header {
   position: absolute;
@@ -40,8 +44,6 @@
   padding-right: 20px;
 }
 
-
-
 /* ==================HEADER===================================== */
 
 #site-header {
@@ -49,7 +51,7 @@
   background-color: white;
   width: 100%;
   height: 55px;
-  transition: top 0.3s ease; 
+  transition: top 0.3s ease;
   z-index: 500;
   top: -200px;
 }
@@ -68,8 +70,7 @@
   align-items: center;
 }
 
-
-@media only screen and ( max-width: 600px){
+@media only screen and (max-width: 600px) {
   .header {
     position: absolute;
     top: 2px;
@@ -81,14 +82,14 @@
     background-color: white;
     width: 100%;
     height: 45px;
-    transition: top 0.3s ease; 
+    transition: top 0.3s ease;
     z-index: 500;
   }
-  .header-links{
+  .header-links {
     display: none;
   }
 
-  .header-icon{
+  .header-icon {
     position: absolute;
     right: 10px;
   }
@@ -100,11 +101,11 @@
     margin-left: 5px;
   }
 
-  .header-overlay-logo{
+  .header-overlay-logo {
     height: 25px;
     width: auto;
     background-color: white;
-    margin-left: 0px;   
+    margin-left: 0px;
   }
 
   .header-content {
@@ -116,19 +117,40 @@
     color: whitesmoke;
   }
 
-  .header-overlay-content{
+  .header-overlay-content {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: center;  
+    align-items: center;
   }
 }
 
-@media only screen and ( min-width: 600px){
-  .header-icon{
+@media only screen and (min-width: 600px) {
+  .header-icon {
     display: none;
   }
+}
+
+.menu-icon1 {
+  height: 20px;
+  width: 26px;
+  padding-right: 0;
+  padding: 2px;
+  background-color: white;
+  border-radius: 1px;
+  margin-top: 10px;
+}
+
+.menu-icon {
+  height: 25px;
+  width: 25px;
+  padding-right: 10px;
+}
+
+.x-icon {
+  height: 25px;
+  width: 25px;
 }
 
 /* ================================================================TOGGLE BAR SMALL DEVICES============================ */
@@ -139,11 +161,11 @@
   background-color: white;
   height: 100%;
   width: 100%;
-  top:0;
+  top: 0;
   display: none;
 }
 
-.toggle-bar-content{
+.toggle-bar-content {
   width: 100%;
   height: 100%;
   display: flex;
@@ -154,14 +176,14 @@
   position: relative;
 }
 
-.toggle-bar-container a{
+.toggle-bar-container a {
   padding-bottom: 20px;
   font-weight: 600;
   justify-content: center;
   align-items: center;
 }
 
-.toggle-bar-back{
+.toggle-bar-back {
   position: absolute;
   top: 15px;
   right: 30px;
@@ -300,18 +322,20 @@
 }
 
 .home-about {
+  padding-bottom: 50px;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .home-about-content {
   height: 100%;
   width: 100%;
+  padding-left: 10px;
 }
 
 .home-about-content h1 {
@@ -321,18 +345,19 @@
 }
 
 .home-about-content p {
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 17px;
   color: rgb(14, 14, 32);
 }
 
 .home-about-content a {
   text-decoration: none;
+  color: #203557;
   border-bottom: 2px;
   transition-duration: 0.4s;
   cursor: pointer;
   color: black;
-  font-size: 16px;
+  font-size: 13px;
   border-bottom: 1px solid green;
 }
 
@@ -455,7 +480,7 @@
   .home-about-content {
     height: 100%;
     width: 100%;
-    padding-left: 10px;
+    padding-left: 60px;
     padding-right: 0px;
   }
 
@@ -466,8 +491,8 @@
   }
 
   .home-about-content p {
-    font-weight: 300;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 20px;
     color: rgb(14, 14, 32);
     padding-bottom: 20px;
   }
@@ -502,7 +527,7 @@
   }
 
   .home-about-content p {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 22px;
     color: rgb(14, 14, 32);
     padding-bottom: 20px;
@@ -524,9 +549,20 @@
 }
 
 .why-chose-us-container {
-  background-color: gray;
-  padding-left: 170px;
-  padding-right: 170px;
+  background-color: #203557;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.why-chose-us-text h1 {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 
 .chose-image {
@@ -543,14 +579,15 @@
 }
 
 .chose-content {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start; */
   margin: 10px;
-  background-color: #e9e6e0;
+  background-color: white;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.chose-content:hover {
+  background-color: #c0c0c0;
+  color: white;
 }
 
 .chose-content h1 {
@@ -564,7 +601,7 @@
 @media only screen and (max-width: 1500px) {
   .chose-content {
     margin: 5px;
-    background-color: #e9e6e0;
+    background-color: white;
     padding-left: 10%;
     padding-right: 5px;
     padding-top: 10px;
@@ -582,9 +619,28 @@
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .why-chose-us-container {
+    background-color: #203557;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 70px;
+    padding-top: 30px;
+  }
+
+  .chose-content {
+    margin: 5px;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .why-chose-us-container {
-    background-color: gray;
+    background-color: #203557;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -600,7 +656,7 @@
     justify-content: flex-start;
     align-items: flex-start; */
     margin: 5px;
-    background-color: #e9e6e0;
+    background-color: white;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -608,7 +664,7 @@
 
 @media only screen and (max-width: 500px) {
   .why-chose-us-container {
-    background-color: gray;
+    background-color: #203557;
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -620,7 +676,7 @@
 
   .chose-content {
     margin: 5px;
-    background-color: #e9e6e0;
+    background-color: white;
     padding-left: 10%;
     padding-right: 5px;
     padding-top: 10px;
@@ -673,9 +729,6 @@
 
 @media only screen and (min-width: 780px) {
   .companies-container {
-  }
-
-  .companies-container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -695,30 +748,56 @@
 .partner-container {
   width: 100%;
   height: 100%;
-  background-color: gray;
+  background-color: #f6f6f6;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .partner-content h1 {
-  font-size: 38px;
+  font-size: 31px;
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .partner-content p {
-  font-size: 38px;
+  font-size: 28px;
   text-align: center;
-  padding-left: 150px;
-  padding-right: 150px;
-  font-weight: 400;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 1400px) {
+  .partner-container {
+    width: 100%;
+    height: 100%;
+    background-color: #f6f6f6;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .partner-content h1 {
+    font-size: 31px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 500;
+  }
+
+  .partner-content p {
+    font-size: 28px;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-weight: 300;
+  }
 }
 
 @media only screen and (max-width: 780px) {
   .partner-content h1 {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 600;
     text-align: center;
     padding-left: 10px;
@@ -726,11 +805,11 @@
   }
 
   .partner-content p {
-    font-size: 28px;
+    font-size: 25px;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    font-weight: 100;
+    font-weight: 300;
   }
 }
 
@@ -752,9 +831,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
+  background-color: #f6f6f6;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+.benefit-content:hover {
+  background-color: #203557;
+  color: white;
 }
 
 .benefit-grid-contents {
@@ -765,6 +849,55 @@
   justify-content: center;
   width: 100%;
   height: 100%;
+}
+
+.benefit-container h2 {
+  font-size: 37px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.benefit-content h1 {
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 1550px) {
+  .benefit-container h2 {
+    font-size: 37px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .benefit-content h1 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .benefit-content {
+    height: 200px;
+    width: 250px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -791,9 +924,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: #f6f6f6;
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+  .benefit-container h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .benefit-content h1 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
   }
 }
 
@@ -821,22 +969,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: #f6f6f6;
   }
-}
 
-.benefit-container h2 {
-  font-size: 27px;
-  font-weight: 600;
-  text-align: center;
-}
+  .benefit-container h2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+  }
 
-.benefit-content h1 {
-  font-size: 23px;
-  font-weight: 600;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 20px;
+  .benefit-content h1 {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
 }
 
 /* ==================================================================FOOTER=============================== */
