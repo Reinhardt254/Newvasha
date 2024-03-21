@@ -1,0 +1,186 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.about-home-layout {
+  height: 100%;
+  width: 100%;
+}
+
+.about-home-container {
+  height: 100%;
+  width: 100%;
+}
+
+.about-home-pic {
+  height: 100%;
+  width: 100%;
+}
+
+.about-who-we-are-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-who-we-are-content h1 {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.about-who-we-are-text p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #203557;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.about-who-we-are-pic {
+  height: 100%;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.about-mission-content {
+}
+
+.about-mission {
+  height: 100%;
+  width: 100%;
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about-mission-content h1 {
+  font-weight: 600;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+}
+
+.about-mission-content p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #203557;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .about-who-we-are-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+  }
+
+  .about-who-we-are-content {
+    width: 100%;
+  }
+
+  .about-who-we-are-image {
+    width: 100%;
+  }
+
+  .about-who-we-are-pic {
+    height: 100%;
+    width: 100%;
+    padding-top: 0px;
+  }
+
+  .about-who-we-are-content h1 {
+    font-weight: 600;
+    font-size: 28px;
+    text-align: left;
+    padding-left: 35px;
+  }
+
+  .about-who-we-are-text p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #203557;
+    padding-right: 0px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+  }
+
+  .about-mission-content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #203557;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .about-who-we-are-content h1 {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 45px;
+  }
+
+  .about-who-we-are-text p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #203557;
+    padding-right: 15px;
+    padding-left: 45px;
+  }
+
+  .about-mission-content h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+  }
+
+  .about-mission-content p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #203557;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-who-we-are-content h1 {
+    font-weight: 600;
+    font-size: 38px;
+    text-align: left;
+    padding-left: 30%;
+  }
+
+  .about-who-we-are-text p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #203557;
+    padding-right: 0px;
+    padding-left: 30%;
+  }
+
+  .about-mission-content h1 {
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .about-mission-content p {
+    font-weight: 400;
+    font-size: 23px;
+    color: #203557;
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
