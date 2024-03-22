@@ -16,7 +16,7 @@
     />
   </head>
   <body>
-    <main class="home-page">
+    <div class="home-page">
       <div class="layout">
         <div class="layout-image-container">
           <img
@@ -98,25 +98,6 @@
               </div>
             </div>
           </div>
-
-          <script>
-            let togglebar = document.getElementById("toggle-bar");
-            let toggler = document.getElementById("sidebar");
-            let openNavigation = document.getElementById("navbar");
-            let backtoggler = document.getElementById("x");
-
-            toggler.addEventListener("click", function () {
-              togglebar.style.display = "block";
-            });
-
-            openNavigation.addEventListener("click", function () {
-              togglebar.style.display = "block";
-            });
-
-            backtoggler.addEventListener("click", function () {
-              togglebar.style.display = "none";
-            });
-          </script>
 
           <div class="layout-image-content">
             <p>DEVELOPMENT EPZ LTD</p>
@@ -436,7 +417,24 @@
 
           lastScrollTop = currentScroll;
         });
+
+        let togglebar = document.getElementById("toggle-bar");
+        let toggler = document.getElementById("sidebar");
+        let openNavigation = document.getElementById("navbar");
+        let backtoggler = document.getElementById("x");
+
+        toggler.addEventListener("click", function () {
+          togglebar.style.display = "block";
+        });
+
+        openNavigation.addEventListener("click", function () {
+          togglebar.style.display = "block";
+        });
+
+        backtoggler.addEventListener("click", function () {
+          togglebar.style.display = "none";
+        });
       </script>
-    </main>
+    </div>
   </body>
 </html>
