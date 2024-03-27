@@ -155,24 +155,6 @@ body {
 
 /* ================================================================TOGGLE BAR SMALL DEVICES============================ */
 
-/* <div id="toggle-bar">
-<div class="toggle-bar-container">
-  <div class="toggle-bar-content">
-    <a href="https://isopanelscu.wordpress.com">HOME</a>
-    <a href="https://isopanelscu.wpcomstaging.com/about">ABOUT US</a>
-    <a href="https://isopanelscu.wpcomstaging.com/contact-2">CONTACT</a>
-    <a href="https://isopanelscu.wpcomstaging.com/news">NEWS</a>
-  </div>
-  <div class="toggle-bar-back" id="x">
-    <img
-      src="https://isopanelscu.files.wordpress.com/2024/03/cross.png"
-      alt="x-icon"
-      class="x-icon"
-    />
-  </div>
-</div>
-</div> */
-
 #toggle-bar {
   position: fixed;
   z-index: 900;
@@ -359,8 +341,6 @@ body {
 .home-about-content {
   height: 100%;
   width: 100%;
-  padding-left: 5px;
-  padding-right: 10px;
 }
 
 .home-about-content h1 {
@@ -501,7 +481,7 @@ body {
     align-items: center;
   }
   .home-about-image-pic {
-    width: 100%;
+    width: 99%;
     margin-top: 30px;
   }
 
@@ -712,8 +692,6 @@ body {
   padding-bottom: 20px;
 }
 
-.chose-image {
-}
 
 .chose-icon {
   height: 15px;
@@ -1342,7 +1320,7 @@ body {
   width: 80%;
   height: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   border-bottom: 1px solid gray;
   padding-bottom: 20px;
 }
@@ -1350,6 +1328,8 @@ body {
 .footer-logo {
   width: 33.3%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   top: 0;
 }
 
@@ -1360,6 +1340,8 @@ body {
 .footer-links {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
   width: 33.3%;
 }
 
@@ -1367,6 +1349,7 @@ body {
   padding-bottom: 20px;
   color: white;
   font-size: 14px;
+  text-decoration: none;
 }
 
 .footer-contact {
@@ -1438,7 +1421,10 @@ body {
 
   .footer-logo {
     width: 80%;
-    height: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .footer-logo-image {
@@ -1458,6 +1444,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -1466,10 +1453,12 @@ body {
   .footer-links a {
     padding-bottom: 15px;
     color: white;
+    text-decoration: none;
   }
 
   .footer-contact {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
